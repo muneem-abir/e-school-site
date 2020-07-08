@@ -1,0 +1,147 @@
+/* -------------css for full body ----start--------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --------------css for full body ------end ---------------*/
+/* 
+ */
+/* ---------------section 1 common sart------------------ */
+.custom_section1_class{
+    background-color: #F0FFF0;
+}
+/* ---------------section 1 common end --------------------*/
+/* 
+ */
+/* ---------------------navbar area start------------------- */
+.custom_logo_div{
+    width:198px;
+    height:59px;
+}
+.custom_logo_div img{
+    width:100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding:12px 28px;
+}
+a.nav-link{
+    font-family:poppins;
+    font-size:16px;
+    color:black;
+}
+a.nav-link:hover{
+    font-size:16px;
+    color:white;
+    background:#21B573;
+    border-radius:33px;
+    transition:all ease 0.3s;
+}
+/* ----------------------navbar area end------------------------ */
+/* 
+ */
+/* -----------------css common part -----start-------------- */
+h1{
+    font-size:45px;
+    font-weight:bold;
+}
+h2{
+    font-size:36px;
+    font-weight:bold;
+}
+h6{
+    font-size:18px;
+    font-weight:bold;
+}
+.custom_btn_class{
+    color:white;
+    background: #21B573;
+    padding:12px 36px;
+    border-radius:33px;
+}
+.custom_btn_class:hover{
+    transform:scale(1.1);
+    color:white;
+}
+/*----------------------- css common part -------end------------ */
+/* 
+ */
+/* ----------------section 2 or bannar part -----start--------------- */
+.common_divs{
+    width:270px;
+    height:270px;
+    margin:20px;
+    border-radius:10px;
+    background:#F8FFFB;
+}
+.common_divs:hover{
+    background:white;
+    box-shadow:5px 5px 10px lightgray;
+}
+.img_div{
+    width:75px;
+    height:80px;
+}
+.img_div img{
+    width:100%;
+}
+/* ---------------------section 2 or banner part --------end---------------- */
+/* 
+ */
+/* -----------------card section start----------- */
+.card{
+    border:none;
+    border-radius: 18px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+/* -----------------card section end -------------*/
+/* 
+ */
+/* -----------------footer area start----------------------- */
+.footer_div{
+    background-color: #282531;
+    color:white;
+    padding:20px;
+}
+.footer_div p{
+    color:#ddd;
+}
+.footer_div a{
+    display:block;
+    color:#ddd;
+    text-decoration: none;
+}
+.footer_div a:hover{
+    color:white;
+    transform:scale(1.1);
+    transition:all ease 0.1s;
+}
+/* ---------------------footer arae end---------------------- */
+/* 
+ */
+/*----------------------------------- my bonus section start---------------------------- */
+.follow_us{
+    border-left:2px solid #b8b8b8;
+    margin:10px 0px;
+    padding:0px 8px;
+}
+.footer_custom_ul{
+	overflow:hidden;
+}
+.footer_custom_ul li{
+	border-right:2px solid #b8b8b8;
+}
+.footer_custom_ul li:last-child{
+	border-right:none;
+}
+.footer_custom_ul li a{
+	padding:0 10px;
+	font-size:13px;
+	display:block;
+	text-decoration:none;
+	color:#b8b8b8;
+}
+.footer_custom_ul li a:hover{
+	color:white;
+	transition:all ease 0.1s;
+	transform:scale(1.1);
+}
+/*------------------------------------ my bonus section end------------------------- */
